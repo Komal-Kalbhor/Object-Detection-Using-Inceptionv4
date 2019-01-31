@@ -2,6 +2,10 @@
 
 This contains a python script for Object detection using pre-trained model Inception v4
 
-Requirements:
-Python 3.5.x
-Tensorflow latest version
+#### Requirements :
+1.  Python 3.5.x
+2.  Tensorflow latest version
+
+#### Steps followed :
+1.  Import required libraries
+2.  
