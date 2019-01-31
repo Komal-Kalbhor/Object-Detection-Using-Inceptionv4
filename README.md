@@ -7,6 +7,6 @@ This contains a python script for Object detection using pre-trained model Incep
 2.  Tensorflow latest version
 
 #### Steps followed :
-1.  Git clone research models from [official tensorflow github repository] (https://github.com/tensorflow/)
+1.  Git clone research models from [official tensorflow github repository] (https://github.com/tensorflow/tensorflow) .
 2.  Import required libraries
 3.  
