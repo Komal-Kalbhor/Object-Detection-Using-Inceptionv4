@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+# This script is generated using jupyter lab
 # In[1]:
 
 
@@ -16,7 +16,7 @@ import csv
 import tensorflow as tf
 import matplotlib.pyplot as plt
 from collections import OrderedDict
-os.chdir("C:\\Users\\komalkal\\models\\research\slim")
+os.chdir("path\\to\\models\\research\slim")
 from datasets import imagenet
 from nets import inception
 from preprocessing import inception_preprocessing
@@ -83,8 +83,8 @@ def FrameCapture(videoFile,imagesFolder):
 
 
 # function call to capture frames
-videoFile = 'E:\\DataScience\\ObjectDetection\\data-videos\\kitchen_lg.mp4'
-imagesFolder = 'E:\DataScience\\ObjectDetection\\images'
+videoFile = 'path\\to\\video\\file\\kitchen_lg.mp4'
+imagesFolder = 'path\\to\\store\\images'
 FrameCapture(videoFile,imagesFolder)
 
 
@@ -197,7 +197,7 @@ def GenerateTags(imagesFolder):
 # In[9]:
 
 
-imagesFolder = 'E:\DataScience\\ObjectDetection\\images\\kitchen_lg'
+imagesFolder = 'path\\to\\folder\\where\\images_are_stored\\images\\kitchen_lg'
 GenerateTags(imagesFolder)
 print("***** Images processed successfully and tags written to file *****")
 
