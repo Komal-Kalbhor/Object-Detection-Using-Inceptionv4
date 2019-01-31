@@ -13,3 +13,5 @@ This contains a python script for Object detection using pre-trained model Incep
 4.  Fuction to capture frames from video using [OpenCV](https://opencv.org/)
 5.  Download inception model as checkpoint file
 6.  Function to detect objects/generate tags and write data to CSV file
+
+##### [Full python script for object detection](script/inception_v4.py)
